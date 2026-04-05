@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fastchat 🚀
 
 Fastchat is a modern, real-time Android messaging application built with Java and Firebase. It features a unique **End-to-End Encryption (E2E)** system powered by Python integration via Chaquopy.
@@ -66,3 +67,7 @@ Fastchat uses a custom hybrid encryption logic found in `src/main/python/FInal_P
 
 ---
 *Created with ❤️ for more secure communication.*
+=======
+# Fastchat
+Fastchat is a high-performance, real-time Android messaging application designed with a primary focus on security and seamless user interaction
+>>>>>>> e4f7566ed40ce4068428fd1400bd8139f2fea1ca

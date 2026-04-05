@@ -71,11 +71,8 @@ public class Constants {
 
             // Add the authorization header with its value
             remoteMsgHeaders.put(
-
                     REMOTE_MSG_AUTHORIZATION,
-
-                    " AAAAtuW4CKI:APA91bEPIDKSe64Gfx8H_hVMljPD25DPsHcf8SQZlygykE-RDypqjNTSNu8PaB_MMiX_mRoklL0DmAVpnx-FxqfW7L569xd5AFDRDx-eXwRtkpPGr0iXYiF1y9Md1PCoWLaXDHW-LS77"
-
+                    " " + com.example.fastchat.BuildConfig.FCM_SERVER_KEY
             );
 
             // Add the content type header with its value

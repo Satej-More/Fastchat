@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FastChat</string>
+    <string name="welcome_back">Welcome_Back!</string>
+    <string name="login_in_continue">Login in Continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sing_in">Sing IN</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="add_image">Add Image</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="fast_chat">Fast Chat</string>
+    <string name="chat_with_your_favourite_person">Chat With Your Favourite Person</string>
+    <string name="from">From</string>
+    <string name="your_developer_here">Your Developer Here</string>
+    <string name="select_user">Select User</string>
+    <string name="type_a_message">Type a Message</string>
+    <string name="online">Online</string>
+</resources>

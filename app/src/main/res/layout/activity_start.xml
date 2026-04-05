@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/received_message_background"
+    tools:context=".StartActivity">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:background="@drawable/icons8_wechat_94"
+            android:importantForAccessibility="no" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_6sdp"
+            android:fontFamily="@font/spartan_extrabold"
+            android:gravity="center"
+            android:text="@string/fast_chat"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_25sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:fontFamily="@font/spartan"
+            android:gravity="center"
+            android:text="@string/chat_with_your_favourite_person"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13sdp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/spartan_light"
+            android:gravity="center"
+            android:text="@string/from"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/spartan"
+            android:gravity="center"
+            android:text="@string/your_developer_here"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13sdp"
+            android:layout_marginBottom="@dimen/_6sdp"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
